@@ -92,7 +92,8 @@ body {
 
 .card-header h3 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.5rem
+  color: var(--white);
 }
 
 .card-body {
@@ -410,6 +411,33 @@ body.bg-light {
   margin-top: 3rem !important;
   animation: fadeInUp 0.5s ease;
 }
+.login-page .container.mt-5 {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  max-width: 420px;
+}
+
+.login-page .card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--white);
+  backdrop-filter: blur(20px);
+}
+
+.login-page .card-body {
+  background: transparent;
+}
+
+.login-page .form-label,
+.login-page #formTitle,
+.login-page .btn-link {
+  color: var(--white);
+}
+
+.login-page .btn-link:hover {
+  color: var(--primary-light);
+}
 
 @keyframes fadeInUp {
   from {
@@ -589,6 +617,7 @@ body > a.nav-link {
     font-size: 1.5rem !important;
   }
 }
+
 
 
 
